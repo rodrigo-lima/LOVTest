@@ -1,4 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C3012" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ListOfValues" representedClassName="ListOfValues" syncable="YES">
+        <attribute name="action" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="children" optional="YES" attributeType="Transformable" valueTransformerName="NSArray" syncable="YES"/>
+        <attribute name="groups" optional="YES" attributeType="Transformable" valueTransformerName="NSArray" syncable="YES"/>
+        <attribute name="linkRelation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="links" optional="YES" attributeType="Transformable" valueTransformerName="NSDictionary" syncable="YES"/>
+        <attribute name="linkURI" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="primaryKey" value="1"/>
+            </userInfo>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resourceName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="values" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ListValue" inverseName="parentList" inverseEntity="ListValue" syncable="YES"/>
+    </entity>
+    <entity name="ListValue" representedClassName="ListValue" syncable="YES">
+        <attribute name="action" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="children" optional="YES" attributeType="Transformable" valueTransformerName="NSArray" syncable="YES"/>
+        <attribute name="displayLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groups" optional="YES" attributeType="Transformable" valueTransformerName="NSArray" syncable="YES"/>
+        <attribute name="links" optional="YES" attributeType="Transformable" valueTransformerName="NSDictionary" syncable="YES"/>
+        <attribute name="lovID" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="primaryKey" value="1"/>
+            </userInfo>
+        </attribute>
+        <attribute name="position" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="storeValue" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="parentList" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ListOfValues" inverseName="values" inverseEntity="ListOfValues" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ListOfValues" positionX="34" positionY="198" width="128" height="178"/>
+        <element name="ListValue" positionX="-272" positionY="198" width="128" height="178"/>
+    </elements>
 </model>

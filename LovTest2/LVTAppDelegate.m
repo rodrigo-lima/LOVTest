@@ -7,12 +7,14 @@
 //
 
 #import "LVTAppDelegate.h"
+#import <RestKit/RestKit.h>
+#import "ListOfListsOfValues.h"
 
 @implementation LVTAppDelegate
 
-@synthesize managedObjectContext = _managedObjectContext;
-@synthesize managedObjectModel = _managedObjectModel;
-@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+//@synthesize managedObjectContext = _managedObjectContext;
+//@synthesize managedObjectModel = _managedObjectModel;
+//@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -20,6 +22,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [self testStuff];
+    
     return YES;
 }
 
@@ -53,20 +58,79 @@
 
 - (void)saveContext
 {
-    NSError *error = nil;
-    NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
-    if (managedObjectContext != nil) {
-        if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
-             // Replace this implementation with code to handle the error appropriately.
-             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
-            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-            abort();
-        } 
-    }
+//    NSError *error = nil;
+//    NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
+//    if (managedObjectContext != nil) {
+//        if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
+//             // Replace this implementation with code to handle the error appropriately.
+//             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
+//            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+//            abort();
+//        } 
+//    }
 }
 
-#pragma mark - Core Data stack
+- (void)testStuff
+{
+    //    RKLogConfigureByName("RestKit/Network", RKLogLevelTrace);
+    RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelTrace);
+    RKLogConfigureByName("RestKit/CoreData", RKLogLevelTrace)
 
+    NSURL *baseURL = [NSURL URLWithString:@"https://raw.github.com/rodrigo-lima"];
+    RKObjectManager *objectManager = [RKObjectManager managerWithBaseURL:baseURL];
+    
+    // Enable Activity Indicator Spinner
+    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+    
+    // -----------------------------------------------------------------------------------------------------------------
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"LovTest2" withExtension:@"momd"];
+    NSManagedObjectModel *managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
+    RKManagedObjectStore *managedObjectStore = [[RKManagedObjectStore alloc] initWithManagedObjectModel:managedObjectModel];
+    
+    // setup sql store
+    NSString *storePath = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+                           stringByAppendingPathComponent:@"lovtest.sqlite"];
+    NSError *error = nil;
+    [managedObjectStore addSQLitePersistentStoreAtPath:storePath
+                                fromSeedDatabaseAtPath:nil
+                                     withConfiguration:nil
+                                               options:nil
+                                                 error:&error];
+    // create managed object context and set it as the default store from now on
+    [managedObjectStore createManagedObjectContexts];
+    [RKManagedObjectStore setDefaultStore:managedObjectStore];
+    // ---
+    objectManager.managedObjectStore = managedObjectStore;
+    
+    // just setting the version here
+//    [managedObjectModel finalizeModelDefinition];
+//    [self setCachedManagedObjectModel:managedObjectModel forVersion:@"v0" error:&error];
+
+    // register EntityMappings
+    [ListOfListsOfValues registerObjectMapping];
+    
+    // read objects
+    [objectManager getObjectsAtPath:@"lovs"
+                         parameters:nil
+                            success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
+                                NSArray* lovs = [mappingResult array];
+                                NSLog(@"Loaded lovs: %@", lovs);
+                            }
+                            failure:^(RKObjectRequestOperation *operation, NSError *error) {
+                                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
+                                                                                message:[error localizedDescription]
+                                                                               delegate:nil
+                                                                      cancelButtonTitle:@"OK"
+                                                                      otherButtonTitles:nil];
+                                [alert show];
+                                NSLog(@"Hit error: %@", error);
+                            }];
+    
+}
+
+
+#pragma mark - Core Data stack
+/*
 // Returns the managed object context for the application.
 // If the context doesn't already exist, it is created and bound to the persistent store coordinator for the application.
 - (NSManagedObjectContext *)managedObjectContext
@@ -108,7 +172,7 @@
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
-        /*
+        / *
          Replace this implementation with code to handle the error appropriately.
          
          abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
@@ -130,13 +194,14 @@
          
          Lightweight migration will only work for a limited set of schema changes; consult "Core Data Model Versioning and Data Migration Programming Guide" for details.
          
-         */
+         * /
         NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
         abort();
     }    
     
     return _persistentStoreCoordinator;
 }
+ */
 
 #pragma mark - Application's Documents directory
 
