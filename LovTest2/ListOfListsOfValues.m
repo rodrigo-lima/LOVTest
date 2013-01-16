@@ -48,9 +48,9 @@
     [[RKObjectManager sharedManager] addResponseDescriptor:responseDescriptorWithKeyPath];
 }
 
-- (NSString *)description
-{
-    return [NSString stringWithFormat:@"ListOfListsOfValues: [%@]", self.listsOfValues];
-}
+//- (NSString *)description
+//{
+//    return [NSString stringWithFormat:@"ListOfListsOfValues: [%@]", self.listsOfValues];
+//}
 
 @end

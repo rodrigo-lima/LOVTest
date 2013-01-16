@@ -43,13 +43,13 @@
     return mapping;
 }
 
-- (NSString *)description
-{
-    // RODRIGO -- note that if you change 'self.values.class' -> 'self.values' the App crashes with infinite loop
-    
-    return [NSString stringWithFormat:@"ListOfValues [%@] - uri[%@] - relation[%@] - values[%@]",
-            self.name, self.linkURI, self.linkRelation, self.values.class];
-}
-
+//- (NSString *)description
+//{
+//    // RODRIGO -- note that if you change 'self.values.class' -> 'self.values' the App crashes with infinite loop
+//    
+//    return [NSString stringWithFormat:@"ListOfValues [%@] - uri[%@] - relation[%@] - values[%@]",
+//            self.name, self.linkURI, self.linkRelation, self.values.class];
+//}
+//
 
 @end

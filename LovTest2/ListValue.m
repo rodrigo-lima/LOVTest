@@ -53,9 +53,10 @@
     return mapping;
 }
 
-- (NSString *)description
-{
-    return [NSString stringWithFormat:@"ListValue [%@] - label[%@] - position[%@] - storeValue[%@]",
-            self.lovID, self.displayLabel, self.position, self.storeValue];
-}
+//- (NSString *)description
+//{
+//    return [NSString stringWithFormat:@"ListValue [%@] - label[%@] - position[%@] - storeValue[%@]",
+//            self.lovID, self.displayLabel, self.position, self.storeValue];
+//}
+
 @end
