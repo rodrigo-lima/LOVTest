@@ -102,15 +102,14 @@
     // ---
     objectManager.managedObjectStore = managedObjectStore;
     
-    // just setting the version here
-//    [managedObjectModel finalizeModelDefinition];
-//    [self setCachedManagedObjectModel:managedObjectModel forVersion:@"v0" error:&error];
-
+    // hack for getting the file from git-hub
+    [RKMIMETypeSerialization registerClass:[RKNSJSONSerialization class] forMIMEType:@"text/plain"];
+    
     // register EntityMappings
     [ListOfListsOfValues registerObjectMapping];
     
     // read objects
-    [objectManager getObjectsAtPath:@"lovs"
+    [objectManager getObjectsAtPath:@"LOVTest/master/lovs.json"
                          parameters:nil
                             success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
                                 NSArray* lovs = [mappingResult array];

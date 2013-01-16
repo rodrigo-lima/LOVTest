@@ -42,7 +42,7 @@
     /////////////
     RKResponseDescriptor *responseDescriptorWithKeyPath =
     [RKResponseDescriptor responseDescriptorWithMapping:catalogMap
-                                            pathPattern:@"lovs"
+                                            pathPattern:@"LOVTest/master/lovs.json"
                                                 keyPath:nil
                                             statusCodes:RKStatusCodeIndexSetForClass(RKStatusCodeClassSuccessful)];
     [[RKObjectManager sharedManager] addResponseDescriptor:responseDescriptorWithKeyPath];
