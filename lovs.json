@@ -1,0 +1,2908 @@
+{
+    "listOfValues": [
+        {
+            "listHeader": {
+                "name": "opportunityStatus",
+                "links": {
+                    "self": {
+                        "href": "/lovs/opportunity/status",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Lost",
+                        "position": 1,
+                        "storeValue": "LOST"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "No Sale",
+                        "position": 2,
+                        "storeValue": "NO_SALE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Open",
+                        "position": 3,
+                        "storeValue": "OPEN"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Won",
+                        "position": 4,
+                        "storeValue": "WON"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "opportunitySalesStage",
+                "links": {
+                    "self": {
+                        "href": "/lovs/opportunity/salesStage",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 5
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Agreement",
+                        "position": 5,
+                        "storeValue": "AGREEMENT"
+                    },
+                    "links": {
+                        "parent": {
+                            "href": "/lovs/opportunity/salesMethod/STANDARD_METHOD",
+                            "rel": "/linksRelations/common/self"
+                        }
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Building Vision",
+                        "position": 3,
+                        "storeValue": "BUILDING_VISION"
+                    },
+                    "links": {
+                        "parent": {
+                            "href": "/lovs/opportunity/salesMethod/STANDARD_METHOD",
+                            "rel": "/linksRelations/common/self"
+                        }
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Qualification",
+                        "position": 1,
+                        "storeValue": "QUALIFICATION"
+                    },
+                    "links": {
+                        "parent": {
+                            "href": "/lovs/opportunity/salesMethod/STANDARD_METHOD",
+                            "rel": "/linksRelations/common/self"
+                        }
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Negotiating",
+                        "position": 6,
+                        "storeValue": "NEGOTIATING"
+                    },
+                    "links": {
+                        "parent": {
+                            "href": "/lovs/opportunity/salesMethod/STANDARD_METHOD",
+                            "rel": "/linksRelations/common/self"
+                        }
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Presentation",
+                        "position": 4,
+                        "storeValue": "PRESENTATION"
+                    },
+                    "links": {
+                        "parent": {
+                            "href": "/lovs/opportunity/salesMethod/STANDARD_METHOD",
+                            "rel": "/linksRelations/common/self"
+                        }
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "opportunityDecisionLevel",
+                "links": {
+                    "self": {
+                        "href": "/lovs/opportunity/decisionLevel",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "CEO",
+                        "position": 1,
+                        "storeValue": "CEO"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "CIO",
+                        "position": 2,
+                        "storeValue": "CIO"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "VP",
+                        "position": 3,
+                        "storeValue": "VP"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Director",
+                        "position": 4,
+                        "storeValue": "DIRECTOR"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Manager",
+                        "position": 5,
+                        "storeValue": "MANAGER"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Other",
+                        "position": 6,
+                        "storeValue": "OTHER"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "opportunityStrategicLevel",
+                "links": {
+                    "self": {
+                        "href": "/lovs/opportunity/strategicLevel",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Low",
+                        "position": 1,
+                        "storeValue": "LOW"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Medium",
+                        "position": 2,
+                        "storeValue": "MEDIUM"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "High",
+                        "position": 3,
+                        "storeValue": "HIGH"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "opportunityRiskLevel",
+                "links": {
+                    "self": {
+                        "href": "/lovs/opportunity/riskLevel",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "link": {
+                "rel": "self"
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "None",
+                        "position": 1,
+                        "storeValue": "NONE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Low",
+                        "position": 2,
+                        "storeValue": "LOW"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "High",
+                        "position": 3,
+                        "storeValue": "HIGH"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "opportunitySalesMethod",
+                "links": {
+                    "self": {
+                        "href": "/lovs/opportunity/salesMethod",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 2
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Standard Method",
+                        "storeValue": "STANDARD_METHOD"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Accelerated Method",
+                        "storeValue": "ACCELERATED_METHOD"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "opportunityEstimatedDuration",
+                "links": {
+                    "self": {
+                        "href": "/lovs/opportunity/estimateDuration",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 5
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Less than 15 days",
+                        "storeValue": "LT_15_DAYS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "15 - 30 days",
+                        "storeValue": "RG_15_30_DAYS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "31 - 60 days",
+                        "storeValue": "RG_31_60_DAYS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "61 - 120 days",
+                        "storeValue": "RG_61_120_DAYS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 5,
+                        "displayLabel": "Greater than 120 days",
+                        "storeValue": "GT_120_DAYS"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "preferredContactMethod",
+                "links": {
+                    "self": {
+                        "href": "/lovs/preferredContactMethod",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Mobile",
+                        "position": 1,
+                        "storeValue": "MOBILE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Email",
+                        "position": 2,
+                        "storeValue": "EMAIL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Work Phone",
+                        "position": 3,
+                        "storeValue": "WORK_PHONE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "salesAffinity",
+                "links": {
+                    "self": {
+                        "href": "/lovs/salesAffinity",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 5
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Favorable",
+                        "position": 1,
+                        "storeValue": "FAVORABLE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Negative",
+                        "position": 2,
+                        "storeValue": "NEGATIVE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Neutral",
+                        "position": 3,
+                        "storeValue": "NEUTRAL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Somewhat Negative",
+                        "position": 4,
+                        "storeValue": "SOMEWHAT_NEGATIVE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Somewhat Favorable",
+                        "position": 5,
+                        "storeValue": "SOMEWHAT_FAVORABLE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "contactInfluenceLevel",
+                "links": {
+                    "self": {
+                        "href": "/lovs/contact/influenceLevel",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Inner Circle",
+                        "position": 1,
+                        "storeValue": "INNER_CIRCLE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "None",
+                        "position": 2,
+                        "storeValue": "NONE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Political Structure",
+                        "position": 3,
+                        "storeValue": "POLITICAL_STRUCTURE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "contactBuyingRole",
+                "links": {
+                    "self": {
+                        "href": "/lovs/contact/buyingRole",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Does not matter",
+                        "position": 1,
+                        "storeValue": "DOES_NOT_MATTER"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Key Decision Maker",
+                        "position": 2,
+                        "storeValue": "KEY_DECISION_MAKER"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Secondary Decision Maker",
+                        "position": 3,
+                        "storeValue": "SECONDARY_DECISION_MAKER"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Supporting Role",
+                        "position": 4,
+                        "storeValue": "SUPPORTING_ROLE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "salesTeamAssignmentType",
+                "links": {
+                    "self": {
+                        "href": "/lovs/salesTeam/assignmentType",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Ad hoc assignment",
+                        "storeValue": "AD_HOC_ASSIGNMENT"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Territory",
+                        "storeValue": "TERRITORY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Partner",
+                        "storeValue": "PARTNER"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "salesTeamMemberFunction",
+                "links": {
+                    "self": {
+                        "href": "/lovs/salesTeam/memberFunction",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 13
+            },
+            "link": {
+                "rel": "self"
+            },
+            "items": [
+		{
+			"attributes": {
+				"position": 1,
+				"displayLabel": "Sales manager",
+				"storeValue": "SALES_MGR_REP"
+			},
+			"action": "ADD"
+		},
+		{
+			"attributes": {
+				"position": 2,
+				"displayLabel": "Sales Operations",
+				"storeValue": "SALES_OPERATIONS"
+			},
+			"action": "ADD"
+		},
+		{
+			"attributes": {
+				"position": 3,
+				"displayLabel": "HW Solutions Consultant",
+				"storeValue": "HW_SOLUTIONS_CONSULTANT"
+			},
+			"action": "ADD"
+		},
+		{
+			"attributes": {
+				"position": 4,
+				"displayLabel": "Primary Salesperson",
+				"storeValue": "PRIMARY_SALESPERSON"
+			},
+			"action": "ADD"
+		},
+		{
+			"attributes": {
+				"position": 5,
+				"displayLabel": "SW Solutions Consultant",
+				"storeValue": "SW_SOLUTIONS_CONSULTANT"
+			},
+			"action": "ADD"
+		}
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "productType",
+                "links": {
+                    "self": {
+                        "href": "/lovs/productType",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 2
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Catalog",
+                        "storeValue": "catalog"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Group",
+                        "storeValue": "productGroup"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Item",
+                        "storeValue": "product"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "currency",
+                "links": {
+                    "self": {
+                        "href": "/lovs/currency",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 5
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "USD",
+                        "storeValue": "USD"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "JPY",
+                        "storeValue": "JPY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "EUR",
+                        "storeValue": "EUR"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "CAD",
+                        "storeValue": "CAD"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 5,
+                        "displayLabel": "GBP",
+                        "storeValue": "GBP"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "productUnitOfMeasurement",
+                "links": {
+                    "self": {
+                        "href": "/lovs/product/unitOfMeasurement",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Unit",
+                        "storeValue": "UNIT"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Days",
+                        "storeValue": "DAYS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Incidents",
+                        "storeValue": "INCIDENTS"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "notesType",
+                "links": {
+                    "self": {
+                        "href": "/lovs/note/type",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "General",
+                        "storeValue": "GENERAL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Budget",
+                        "storeValue": "BUDGET"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Special",
+                        "storeValue": "SPECIAL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "Reference",
+                        "storeValue": "REFERENCE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "notesVisibility",
+                "links": {
+                    "self": {
+                        "href": "/lovs/note/visibility",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "External",
+                        "storeValue": "EXTERNAL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Internal",
+                        "storeValue": "INTERNAL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Private",
+                        "storeValue": "PRIVATE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "taskPriority",
+                "links": {
+                    "self": {
+                        "href": "/lovs/task/priority",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 5
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Very High",
+                        "storeValue": "1"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "High",
+                        "storeValue": "2"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Medium",
+                        "storeValue": "3"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "Low",
+                        "storeValue": "4"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 5,
+                        "displayLabel": "Very Low",
+                        "storeValue": "5"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "interactionType",
+                "links": {
+                    "self": {
+                        "href": "/lovs/interaction/type",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Chat",
+                        "storeValue": "CHAT"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Meeting",
+                        "storeValue": "MEETING"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Email",
+                        "storeValue": "EMAIL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "Phone Call",
+                        "storeValue": "PHONE_CALL"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "interactionDirection",
+                "links": {
+                    "self": {
+                        "href": "/lovs/interaction/direction",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 2
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "In",
+                        "storeValue": "INBOUND"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Out",
+                        "storeValue": "OUTBOUND"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "addressPurpose",
+                "links": {
+                    "self": {
+                        "href": "/lovs/address/Purpose",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 5
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Ship To",
+                        "storeValue": "SHIP_TO"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Bill To",
+                        "storeValue": "BILL_TO"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Dunning",
+                        "storeValue": "DUNNING"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "Home",
+                        "storeValue": "HOME"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 5,
+                        "displayLabel": "Business",
+                        "storeValue": "BUSINESS"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "contactPointType",
+                "links": {
+                    "self": {
+                        "href": "/lovs/contactPoint/type",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Phone",
+                        "storeValue": "PHONE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Email",
+                        "storeValue": "EMAIL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "IM",
+                        "storeValue": "IM"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "Web",
+                        "storeValue": "WEB"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "contactPointPurpose",
+                "links": {
+                    "self": {
+                        "href": "/lovs/contactPoint/purpose",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Business",
+                        "storeValue": "BUSINESS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Assistant",
+                        "storeValue": "ASSISTANT"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Home Business",
+                        "storeValue": "HOME_BUSINESS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "Personal",
+                        "storeValue": "PERSONAL"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "primaryIndustry",
+                "links": {
+                    "self": {
+                        "href": "/lovs/primaryIndustry",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 5
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "CPG",
+                        "storeValue": "CPG"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "High Tech",
+                        "storeValue": "HIGH_TECH"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Pharma",
+                        "storeValue": "PHARMA"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "Retail",
+                        "storeValue": "RETAIL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 5,
+                        "displayLabel": "N/A",
+                        "storeValue": "N/A"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "taskCategory",
+                "links": {
+                    "self": {
+                        "href": "/lovs/task/category",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Call - Inbound",
+                        "storeValue": "CALL_INBOUND"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Call - Outbound",
+                        "storeValue": "CALL_OUTBOUND"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "FYI",
+                        "storeValue": "FYI"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "Information Needed",
+                        "storeValue": "INFORMATION_NEEDED"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },        
+        {
+            "listHeader": {
+                "name": "interactionResolution",
+                "links": {
+                    "self": {
+                        "href": "/lovs/interaction/resolution",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 9
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Calls Answered",
+                        "storeValue": "CALLS_ANSWERED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Calls Transferred",
+                        "storeValue": "CALLS_TRANSFERRED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Captured Issue",
+                        "storeValue": "CAPTURED_ISSUE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "Failed",
+                        "storeValue": "FAILED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 5,
+                        "displayLabel": "Left Message",
+                        "storeValue": "LEFT_MESSAGE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 6,
+                        "displayLabel": "Not Available",
+                        "storeValue": "NOT_AVAILABLE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 7,
+                        "displayLabel": "Provided Information",
+                        "storeValue": "PROVIDED_INFORMATION"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 8,
+                        "displayLabel": "Resolved Issue",
+                        "storeValue": "RESOLVED_ISSUE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 9,
+                        "displayLabel": "Successful",
+                        "storeValue": "SUCCESSFUL"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },        
+        {
+            "listHeader": {
+                "name": "fiscalYearEndMonth",
+                "links": {
+                    "self": {
+                        "href": "/lovs/account/fiscalYearEndMonth",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 12
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "January",
+                        "storeValue": "JANUARY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "February",
+                        "storeValue": "FEBRUARY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "March",
+                        "storeValue": "MARCH"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "April",
+                        "storeValue": "APRIL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 5,
+                        "displayLabel": "May",
+                        "storeValue": "MAY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 6,
+                        "displayLabel": "June",
+                        "storeValue": "JUNE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 7,
+                        "displayLabel": "July",
+                        "storeValue": "JULY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 8,
+                        "displayLabel": "August",
+                        "storeValue": "AUGUST"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 9,
+                        "displayLabel": "September",
+                        "storeValue": "SEPTEMBER"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 10,
+                        "displayLabel": "October",
+                        "storeValue": "OCTOBER"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 11,
+                        "displayLabel": "November",
+                        "storeValue": "NOVEMBER"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 12,
+                        "displayLabel": "December",
+                        "storeValue": "DECEMBER"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },        
+        {
+            "listHeader": {
+                "name": "revenueItemForecast",
+                "links": {
+                    "self": {
+                        "href": "/lovs/revenueItem/forecast",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Yes",
+                        "storeValue": "YES"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "No",
+                        "storeValue": "NO"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "When Matches Criteria",
+                        "storeValue": "WHEN_MATCHES_CRITERIA"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "contactDepartment",
+                "links": {
+                    "self": {
+                        "href": "/lovs/contacts/department",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Purchasing",
+                        "storeValue": "Purchasing"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Contracts",
+                        "storeValue": "Contracts"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Finance",
+                        "storeValue": "Finance"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "IT",
+                        "storeValue": "IT"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "requisitionStatus",
+                "links": {
+                    "self": {
+                        "href": "/lovs/requisitions/status",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 2
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Open",
+                        "storeValue": "OPEN"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Pending Approval",
+                        "storeValue": "PENDING_APPROVAL"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "requisitionType",
+                "links": {
+                    "self": {
+                        "href": "/lovs/requisitions/type",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 2
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Professional",
+                        "storeValue": "PROFESSIONAL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Contingent",
+                        "storeValue": "CONTINGENT"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "candidateStep",
+                "links": {
+                    "self": {
+                        "href": "/lovs/candidate/step",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 6
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "New",
+                        "storeValue": "NEW"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Under Review",
+                        "storeValue": "UNDER_REVIEW"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Interview",
+                        "storeValue": "INTERVIEW"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "Background Check",
+                        "storeValue": "BACKGROUND_CHECK"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 5,
+                        "displayLabel": "Offer",
+                        "storeValue": "OFFER"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 6,
+                        "displayLabel": "Hire",
+                        "storeValue": "HIRE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "candidateStatus",
+                "links": {
+                    "self": {
+                        "href": "/lovs/candidate/status",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 23
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "To Be Evaluated",
+                        "storeValue": "TO_BE_EVALUATED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Rejected",
+                        "storeValue": "REJECTED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Declined",
+                        "storeValue": "DECLINED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "To Be HM Screened",
+                        "storeValue": "TO_BE_HM_SCREENED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 5,
+                        "displayLabel": "Waiting For Info",
+                        "storeValue": "WAITING_FOR_INFO"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 6,
+                        "displayLabel": "Qualified",
+                        "storeValue": "QUALIFIED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 7,
+                        "displayLabel": "Standby",
+                        "storeValue": "STANDBY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 8,
+                        "displayLabel": "Under Consideration",
+                        "storeValue": "UNDER_CONSIDERATION"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 9,
+                        "displayLabel": "Short List",
+                        "storeValue": "SHORT_LIST"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 12,
+                        "displayLabel": "To Be Scheduled",
+                        "storeValue": "TO_BE_SCHEDULED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 13,
+                        "displayLabel": "Left Message",
+                        "storeValue": "LEFT_MESSAGE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 14,
+                        "displayLabel": "Contacted",
+                        "storeValue": "CONTACTED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 15,
+                        "displayLabel": "Scheduled",
+                        "storeValue": "SCHEDULED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 16,
+                        "displayLabel": "Waiting For Info",
+                        "storeValue": "WAITING_FOR_INFO2"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 17,
+                        "displayLabel": "Passed",
+                        "storeValue": "PASSED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 23,
+                        "displayLabel": "To Be Background Checked",
+                        "storeValue": "TO_BE_BACKGROUND_CHECKED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 24,
+                        "displayLabel": "Waiting For Results",
+                        "storeValue": "WAITING_FOR_RESULTS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 26,
+                        "displayLabel": "Failed",
+                        "storeValue": "FAILED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 29,
+                        "displayLabel": "To Be Hired",
+                        "storeValue": "TO_BE_HIRED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 30,
+                        "displayLabel": "Waiting For Approval",
+                        "storeValue": "WAITING_FOR_APPROVAL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 31,
+                        "displayLabel": "In Process",
+                        "storeValue": "IN_PROCESS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 32,
+                        "displayLabel": "Approved",
+                        "storeValue": "APPROVED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 33,
+                        "displayLabel": "Hired",
+                        "storeValue": "HIRED"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "goalStatus",
+                "links": {
+                    "self": {
+                        "href": "/lovs/goal/status",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 2
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "In Progress",
+                        "storeValue": "IN_PROGRESS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Not Started",
+                        "storeValue": "NOT_STARTED"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "goalType",
+                "links": {
+                    "self": {
+                        "href": "/lovs/goal/type",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Financial",
+                        "storeValue": "FINANCIAL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Customer",
+                        "storeValue": "CUSTOMER"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Internal",
+                        "storeValue": "INTERNAL"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "candidateReject",
+                "links": {
+                    "self": {
+                        "href": "/lovs/candidate/reject",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 11
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Application received too late",
+                        "storeValue": "APPLICATION_RECEIVED_TOO_LATE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Did not complete the hiring process",
+                        "storeValue": "DID_NOT_COMPLETE_THE_HIRING_PROCESS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Unable to Contact Applicant",
+                        "storeValue": "UNABLE_TO_CONTACT_APPLICANT"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 4,
+                        "displayLabel": "More qualified candidate selected",
+                        "storeValue": "MORE_QUALIFIED_CANDIDATE_SELECTED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 5,
+                        "displayLabel": "Does not meet required criteria",
+                        "storeValue": "DOES_NOT_MEET_REQUIRED_CRITERIA"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 6,
+                        "displayLabel": "Not eligible to work in this country",
+                        "storeValue": "NOT_ELIGIBLE_TO_WORK_IN_THIS_COUNTRY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 7,
+                        "displayLabel": "Failed testing",
+                        "storeValue": "FAILED_TESTING"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 8,
+                        "displayLabel": "Not willing to relocate",
+                        "storeValue": "NOT_WILLING_TO_RELOCATE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 9,
+                        "displayLabel": "Salary expectations",
+                        "storeValue": "SALARY_EXPECTATIONS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 10,
+                        "displayLabel": "Offer was withdrawn",
+                        "storeValue": "OFFER_WAS_WITHDRAWN"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 11,
+                        "displayLabel": "Position was canceled",
+                        "storeValue": "POSITION_WAS_CANCELED"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "candidateNextStep",
+                "links": {
+                    "self": {
+                        "href": "/lovs/candidate/nextStep",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Meets Job Qualifications",
+                        "storeValue": "MEETS_JOB_QUALIFICATIONS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Passed Screening",
+                        "storeValue": "PASSED_SCREENING"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Passed Assessment",
+                        "storeValue": "PASSED_ASSESSMENT"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "goalPriority",
+                "links": {
+                    "self": {
+                        "href": "/lovs/goal/priority",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 2
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Critical",
+                        "storeValue": "CRITICAL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Not Critical",
+                        "storeValue": "NOT_CRITICAL"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "goalAligned",
+                "links": {
+                    "self": {
+                        "href": "/lovs/goal/aligned",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 2
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Aligned With Manager Goal",
+                        "storeValue": "ALIGNED_WITH_MANAGER_GOAL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "None",
+                        "storeValue": "NO_VALUE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "socialImpactDateRange",
+                "links": {
+                    "self": {
+                        "href": "/lovs/socialImpact/dateRange",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "position": 3,
+                        "displayLabel": "Last 6 Months",
+                        "storeValue": "LAST_6_MONTHS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 2,
+                        "displayLabel": "Last 3 Months",
+                        "storeValue": "LAST_3_MONTHS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "position": 1,
+                        "displayLabel": "Last 1 Month",
+                        "storeValue": "LAST_1_MONTH"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "incidentStatus",
+                "links": {
+                    "self": {
+                        "href": "/lovs/incident/status",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Unresolved",
+                        "position": 1,
+                        "storeValue": "UNRESOLVED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Solved",
+                        "position": 2,
+                        "storeValue": "SOLVED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Updated",
+                        "position": 3,
+                        "storeValue": "UPDATED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Waiting",
+                        "position": 4,
+                        "storeValue": "WAITING"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "incidentSeverity",
+                "links": {
+                    "self": {
+                        "href": "/lovs/incident/severity",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "1-Critical Impairment",
+                        "position": 1,
+                        "storeValue": "1"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "2-Major Impairment",
+                        "position": 2,
+                        "storeValue": "2"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "3-Normal Impairment",
+                        "position": 3,
+                        "storeValue": "3"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "4-Minor Impairment",
+                        "position": 4,
+                        "storeValue": "4"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "incidentDisposition",
+                "links": {
+                    "self": {
+                        "href": "/lovs/incident/disposition",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 4
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Call Back",
+                        "position": 1,
+                        "storeValue": "CALLBACK"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Escalated",
+                        "position": 2,
+                        "storeValue": "ESCALATED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Re-Assigned",
+                        "position": 3,
+                        "storeValue": "REASSIGNED"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Not Satisfied",
+                        "position": 4,
+                        "storeValue": "NOT_SATISFIED"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "threadType",
+                "links": {
+                    "self": {
+                        "href": "/lovs/thread/type",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Customer Entry",
+                        "position": 1,
+                        "storeValue": "CUSTOMERENTRY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Response",
+                        "position": 2,
+                        "storeValue": "RESPONSE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Private Note",
+                        "position": 3,
+                        "storeValue": "PRIVATENOTE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "threadChannel",
+                "links": {
+                    "self": {
+                        "href": "/lovs/thread/channel",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 6
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "No Channel",
+                        "position": 1,
+                        "storeValue": "NOCHANNEL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Phone",
+                        "position": 2,
+                        "storeValue": "PHONECHANNEL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Fax",
+                        "position": 3,
+                        "storeValue": "FAXCHANNEL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Post",
+                        "position": 4,
+                        "storeValue": "POSTCHANNEL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Web",
+                        "position": 5,
+                        "storeValue": "WEBCHANNEL"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Email",
+                        "position": 6,
+                        "storeValue": "EMAILCHANNEL"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "incidentCategory",
+                "links": {
+                    "self": {
+                        "href": "/lovs/incident/category",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 2
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Software",
+                        "position": 1,
+                        "storeValue": "SOFTWARE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Hardware",
+                        "position": 2,
+                        "storeValue": "HARDWARE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "contactState",
+                "links": {
+                    "self": {
+                        "href": "/lovs/contacts/state",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Service",
+                        "position": 1,
+                        "storeValue": "SERVICE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Marketing",
+                        "position": 2,
+                        "storeValue": "MARKETING"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Sales",
+                        "position": 3,
+                        "storeValue": "SALES"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "language",
+                "links": {
+                    "self": {
+                        "href": "/lovs/language",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 5
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "English",
+                        "position": 1,
+                        "storeValue": "EN"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "French",
+                        "position": 2,
+                        "storeValue": "FR"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Finnish",
+                        "position": 3,
+                        "storeValue": "FI"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Spanish",
+                        "position": 4,
+                        "storeValue": "ES"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "German",
+                        "position": 5,
+                        "storeValue": "DE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "nineBox",
+                "links": {
+                    "self": {
+                        "href": "/lovs/nineBox",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 9
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Needs Coaching",
+                        "position": 1,
+                        "storeValue": "1"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Future Star",
+                        "position": 2,
+                        "storeValue": "2"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Superstar",
+                        "position": 3,
+                        "storeValue": "3"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Questionable Fit",
+                        "position": 4,
+                        "storeValue": "4"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Key Player",
+                        "position": 5,
+                        "storeValue": "5"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Rising Star",
+                        "position": 6,
+                        "storeValue": "6"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "At Risk",
+                        "position": 7,
+                        "storeValue": "7"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Professional",
+                        "position": 8,
+                        "storeValue": "8"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Expert",
+                        "position": 9,
+                        "storeValue": "9"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "skill",
+                "links": {
+                    "self": {
+                        "href": "/lovs/skill",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 14
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Teamwork",
+                        "position": 1,
+                        "storeValue": "TEAMWORK"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Leadership",
+                        "position": 2,
+                        "storeValue": "LEADERSHIP"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Financial Acumen",
+                        "position": 3,
+                        "storeValue": "FINANCIAL_ACUMEN"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Problem Solving",
+                        "position": 4,
+                        "storeValue": "PROBLEM_SOLVING"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Decision Making",
+                        "position": 5,
+                        "storeValue": "DECISION_MAKING"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Communication",
+                        "position": 6,
+                        "storeValue": "COMMUNICATION"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Coaching",
+                        "position": 7,
+                        "storeValue": "COACHING"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Leadership",
+                        "position": 8,
+                        "storeValue": "LEADERSHIP"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Innovation",
+                        "position": 9,
+                        "storeValue": "INNOVATION"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Building Relationships",
+                        "position": 10,
+                        "storeValue": "BUILDING_RELATIONSHIPS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Planning and Organizing",
+                        "position": 11,
+                        "storeValue": "PLANNING_AND_ORGANIZING"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Adapting to Change",
+                        "position": 12,
+                        "storeValue": "ADAPTING_TO_CHANGE"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Business Ethics",
+                        "position": 13,
+                        "storeValue": "BUSINESS_ETHICS"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Working Globally",
+                        "position": 14,
+                        "storeValue": "WORKING_GLOBALLY"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "workerJob",
+                "links": {
+                    "self": {
+                        "href": "/lovs/workerJob",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 1
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Sales Representative",
+                        "position": 1,
+                        "storeValue": "JOBSALESREP"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "workerGrade",
+                "links": {
+                    "self": {
+                        "href": "/lovs/workerGrade",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 6
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "IC6",
+                        "position": 1,
+                        "storeValue": "IC6"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "IC5",
+                        "position": 2,
+                        "storeValue": "IC5"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "IC4",
+                        "position": 3,
+                        "storeValue": "IC4"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "IC3",
+                        "position": 4,
+                        "storeValue": "IC3"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "IC2",
+                        "position": 5,
+                        "storeValue": "IC2"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "IC1",
+                        "position": 6,
+                        "storeValue": "IC1"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "jobLocation",
+                "links": {
+                    "self": {
+                        "href": "/lovs/jobLocation",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 1
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "New York",
+                        "position": 1,
+                        "storeValue": "NEW_YORK_REGION"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "promotionAction",
+                "links": {
+                    "self": {
+                        "href": "/lovs/promotionAction",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 1
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Promotion",
+                        "position": 1,
+                        "storeValue": "PROMOTION"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "salaryFrequency",
+                "links": {
+                    "self": {
+                        "href": "/lovs/salaryFrequency",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 3
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Monthly",
+                        "position": 1,
+                        "storeValue": "MONTHLY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Semi-Monthly",
+                        "position": 2,
+                        "storeValue": "SEMI_MONTHLY"
+                    },
+                    "action": "ADD"
+                },
+                {
+                    "attributes": {
+                        "displayLabel": "Weekly",
+                        "position": 3,
+                        "storeValue": "WEEKLY"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "promotionReason",
+                "links": {
+                    "self": {
+                        "href": "/lovs/promotionReason",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 1
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "Performance",
+                        "position": 1,
+                        "storeValue": "PERFORMANCE"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        },
+        {
+            "listHeader": {
+                "name": "workerDepartment",
+                "links": {
+                    "self": {
+                        "href": "/lovs/workerDepartment",
+                        "rel": "/linksRelations/common/self"
+                    }
+                },
+                "total": 1
+            },
+            "items": [
+                {
+                    "attributes": {
+                        "displayLabel": "North East Sales",
+                        "position": 1,
+                        "storeValue": "NE_SALES"
+                    },
+                    "action": "ADD"
+                }
+            ]
+        }        
+	]
+}
